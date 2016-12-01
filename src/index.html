@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <base href="/">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./css/materialize.css" media="screen" title="no title">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAohhTZEVr3sU_NJs4kRS6Ht0OZ40Rbthg"></script>
+
+    <title>Drive Mobile</title>
+    <style>
+      /* Preloader */
+      .preloader {
+        margin: 250px auto;
+        width: 120px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+      .preloader img {
+        width: 120px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body ng-app="drive">
+    <!--<div id="preload" class="preloader"><img src="img/preloader.gif" alt="cargando..."></div>-->
+    <drive-app></drive-app>
+    <script src="./js/modernizr.js" type="text/javascript"></script>
+  </body>
+</html>
